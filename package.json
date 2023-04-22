@@ -1,6 +1,6 @@
 {
-  "name": "accessible-astro-starter",
-  "description": "An Accessible Starter Theme for Astro including several accessiblity features and tools to help you build faster.",
+  "name": "Yapper",
+  "description": "yapper manifesto",
   "version": "2.0.2",
   "author": "Mark Teekman",
   "homepage": "https://accessible-astro.dev",
@@ -17,7 +17,7 @@
     "@typescript-eslint/eslint-plugin": "^5.50.0",
     "@typescript-eslint/parser": "^5.50.0",
     "accessible-astro-components": "^1.6.4",
-    "astro": "^2.0.1",
+    "astro": "^2.3.0",
     "astro-compress": "1.1.28",
     "astro-icon": "^0.7.3",
     "eslint": "^8.33.0",

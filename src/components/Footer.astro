@@ -8,11 +8,29 @@ const currentYear = new Date().getFullYear()
   <CallToAction />
   <section class="py-8">
     <div class="container">
-      <p>
-        &copy; {currentYear} - Starter Theme for <a href="https://astro.build/">Astro</a>. Made with ❤️ by <a
+      <p class="footnote-main">
+        &copy; {currentYear} - Megan Yang
+      </p>
+      <p class="footnote-secondary">
+        Attribute to: Starter Theme for <a href="https://astro.build/">Astro</a>. Made with ❤️ by <a
           href="https://github.com/markteekman">Mark Teekman</a
         >.
       </p>
     </div>
   </section>
 </footer>
+
+<style scoped>
+.footnote-main {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+.footnote-secondary {
+  font-size: 0.65rem;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+
+</style>
